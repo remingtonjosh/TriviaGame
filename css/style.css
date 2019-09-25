@@ -1,0 +1,28 @@
+body {
+  background-image: url("https://wallperio.com/data/out/383/question-mark-wallpaper_617904472.jpg");
+}
+
+h4 {
+  font-size: 90px;
+}
+
+.maincontainer {
+  width: 90%;
+  height: auto;
+  background: whitesmoke;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.title {
+  height: 100px;
+  font-family: "Turret Road", cursive;
+  text-align: center;
+}
+
+.game {
+  text-align: center;
+  height: 110px;
+  background: rgb(219, 103, 57);
+  font-family: "Turret Road", cursive;
+}
