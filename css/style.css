@@ -1,9 +1,9 @@
 body {
-  background-image: url("https://wallperio.com/data/out/383/question-mark-wallpaper_617904472.jpg");
+  background-image: url("https://previews.123rf.com/images/allexxandar/allexxandar1711/allexxandar171100936/90707590-grunge-hawaii-state-flag-hawaii-flag-background-grunge-texture-.jpg");
 }
 
-h4 {
-  font-size: 90px;
+h1 {
+  font-size: 75px;
 }
 
 .maincontainer {
@@ -15,14 +15,31 @@ h4 {
 }
 
 .title {
-  height: 100px;
+  height: auto;
   font-family: "Turret Road", cursive;
   text-align: center;
 }
 
+.instructions {
+  text-align: center;
+  height: auto;
+  background: rgb(172, 172, 172);
+}
+
 .game {
   text-align: center;
-  height: 110px;
-  background: rgb(219, 103, 57);
-  font-family: "Turret Road", cursive;
+  height: auto;
+  background: rgb(104, 104, 104);
+  padding-bottom: 20px;
+}
+
+/* button modify */
+
+.choices {
+  border: 1px solid white;
+  margin: 5px auto 5px auto;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 20%;
 }

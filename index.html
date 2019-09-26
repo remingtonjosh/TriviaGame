@@ -7,7 +7,7 @@
     <title>Trivia Game</title>
 
     <!-- boot strap -->
-    >
+    
 
     <link
       rel="stylesheet"
@@ -17,31 +17,44 @@
     />
 
     <!-- css -->
-    >
+    
 
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- google font -->
-    >
+    
     <link
       href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap"
       rel="stylesheet"
     />
+
+    
   </head>
 
   <body>
     <div class="maincontainer">
-      <div class="title"><h4>Trivia Time</h4></div>
+      <div class="title"> <h1> Hawaii Trivia </h1> </div>
 
-      <div class="game">
-        <br />
-        <h3>Press Start to reveal your triva questions. You got 60 seconds!</h3>
-        <button type="button" id="start" class="btn btn-secondary">
-          START
-        </button>
+      <div class="instructions">
+        <br/>
+        <h3>Press Start to reveal your triva questions. You got 80 seconds!</h3>
+      
+  <button type="button" id="start" class="btn btn-secondary">
+    START
+  </button>
+  
+  <h2 id="time"> </h2>
+
+
+      <div class="game" id="game"> 
+    
+
+
       </div>
 
-     
+      </div>
+
+    
 
     <!-- java bootstrap -->
 
@@ -50,15 +63,14 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+
+
+
+    <script src="javascript/questions.js"></script>
+    <script src="javascript/app.js"></script>
+
   </body>
 </html>
+
+
+<!-- credit https://www.youtube.com/watch?v=BW3SQGF0AAw for teaching me -->
